@@ -14,58 +14,21 @@ export default function Home() {
             <Head>
                 <title>Pubmed info</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
             </Head>
+            <Script id="show-banner" src="/theme_button.js" />
             <Script
-                src="/tailwind_scripts/theme_button.js"
-                key="theme_btn"
-            />
-            <Script
-                src="/tailwind_scripts/theme_listener.js"
-                key="theme_listener"
+                src="/theme_listener.js"
+                id="theme_listener"
             />
             <Hero />
-            {/*<div className="h-56 sm:h-64 xl:h-80 2xl:h-96 max-w-[60%] mx-auto">*/}
-            {/*    <Carousel slideInterval={5000}>*/}
-            {/*        <Image*/}
-            {/*            src="https://flowbite.com/docs/images/carousel/carousel-1.svg"*/}
-            {/*            alt="..."*/}
-            {/*            height={600}*/}
-            {/*            width={600}*/}
-            {/*        />*/}
-            {/*        <Image*/}
-            {/*            src="https://flowbite.com/docs/images/carousel/carousel-2.svg"*/}
-            {/*            alt="..."*/}
-            {/*            height={500}*/}
-            {/*            width={500}*/}
-            {/*        />*/}
-            {/*        <Image*/}
-            {/*            src="https://flowbite.com/docs/images/carousel/carousel-3.svg"*/}
-            {/*            alt="..."*/}
-            {/*            height={500}*/}
-            {/*            width={500}*/}
-            {/*        />*/}
-            {/*        <Image*/}
-            {/*            src="https://flowbite.com/docs/images/carousel/carousel-4.svg"*/}
-            {/*            alt="..."*/}
-            {/*            height={500}*/}
-            {/*            width={500}*/}
-            {/*        />*/}
-            {/*        <Image*/}
-            {/*            src="https://flowbite.com/docs/images/carousel/carousel-5.svg"*/}
-            {/*            alt="..."*/}
-            {/*            height={500}*/}
-            {/*            width={500}*/}
-            {/*        />*/}
-            {/*    </Carousel>*/}
-            {/*</div>*/}
-            {/*<MainForm/>*/}
-            <CTA/>
-            <div className="flex flex-col gap-4 align items-center w-full justify-center mb-12 sm:flex-row md:flex-row lg:flex-row xl:flex-row">
+            <CTA />
+            <div
+                className="flex flex-col gap-4 align items-center w-full justify-center mb-12 sm:flex-row md:flex-row lg:flex-row xl:flex-row">
                 <Card />
                 <Card />
                 <Card />
             </div>
-
 
 
         </div>
