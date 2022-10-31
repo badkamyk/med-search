@@ -1,19 +1,29 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Hero from "../components/Hero";
-import {Carousel} from "flowbite-react";
+import { Carousel } from "flowbite-react";
 import Image from "next/image";
 import MainForm from "../components/MainForm";
 import Card from "../components/Card";
+import CTA from "../components/CTA";
+import Script from "next/script";
 
 export default function Home() {
     return (
-        <div>
+        <div className="h-screen">
             <Head>
                 <title>Pubmed info</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             </Head>
-            <Hero/>
+            <Script
+                src="/tailwind_scripts/theme_button.js"
+                key="theme_btn"
+            />
+            <Script
+                src="/tailwind_scripts/theme_listener.js"
+                key="theme_listener"
+            />
+            <Hero />
             {/*<div className="h-56 sm:h-64 xl:h-80 2xl:h-96 max-w-[60%] mx-auto">*/}
             {/*    <Carousel slideInterval={5000}>*/}
             {/*        <Image*/}
@@ -49,10 +59,11 @@ export default function Home() {
             {/*    </Carousel>*/}
             {/*</div>*/}
             {/*<MainForm/>*/}
-            <div className="flex flex-col gap-4 align items-center w-full justify-center mb-12 sm:flex-row md:flex-row lg:flex-row xl:flex-row ">
-                <Card/>
-                <Card/>
-                <Card/>
+            <CTA/>
+            <div className="flex flex-col gap-4 align items-center w-full justify-center mb-12 sm:flex-row md:flex-row lg:flex-row xl:flex-row">
+                <Card />
+                <Card />
+                <Card />
             </div>
 
 
