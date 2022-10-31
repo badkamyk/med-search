@@ -1,14 +1,13 @@
 import '../styles/globals.css'
 import type {AppProps} from 'next/app'
-import {Navbar} from "flowbite-react";
+import {Navbar, Footer} from "flowbite-react";
 import Image from "next/image";
 
 export default function App({Component, pageProps}: AppProps) {
     return (
-        <>
+        <div className={"dark:bg-gray-900"}>
             <Navbar
                 fluid={true}
-                rounded={true}
             >
                 <Navbar.Brand href="https://flowbite.com/">
                     <Image
@@ -45,6 +44,27 @@ export default function App({Component, pageProps}: AppProps) {
                 </Navbar.Collapse>
             </Navbar>
             <Component {...pageProps} />
-        </>
+            <Footer container={true} className={"sm: text-center"}>
+                <Footer.Copyright
+                    href="#"
+                    by="MedInfo™"
+                    year={2022}
+                />
+                <Footer.LinkGroup className={"sm: gap-2 sm: justify-center"}>
+                    <Footer.Link href="#">
+                        About
+                    </Footer.Link>
+                    <Footer.Link href="#">
+                        Privacy Policy
+                    </Footer.Link>
+                    <Footer.Link href="#">
+                        Licensing
+                    </Footer.Link>
+                    <Footer.Link href="#">
+                        Contact
+                    </Footer.Link>
+                </Footer.LinkGroup>
+            </Footer>
+        </div>
     )
 }

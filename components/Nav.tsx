@@ -6,7 +6,6 @@ export default function Nav({ children } : React.PropsWithChildren<{}>) {
         <>
         <Navbar
             fluid={true}
-            rounded={true}
         >
             <Navbar.Brand href="https://flowbite.com/">
                 <Image
