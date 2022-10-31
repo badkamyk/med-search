@@ -50,7 +50,7 @@ export default function App({Component, pageProps}: AppProps) {
                     by="MedInfo™"
                     year={2022}
                 />
-                <Footer.LinkGroup className={"sm: gap-2 sm: justify-center"}>
+                <Footer.LinkGroup className={"sm: gap-2 sm: justify-center mt-auto"}>
                     <Footer.Link href="#">
                         About
                     </Footer.Link>
