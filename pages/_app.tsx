@@ -3,12 +3,13 @@ import type { AppProps } from 'next/app'
 import { Navbar, Footer } from "flowbite-react";
 import Image from "next/image";
 import Script from "next/script";
+import Head from "next/head";
+import Link from "next/link";
 
 export default function App({ Component, pageProps }: AppProps) {
     return (
 
         <div className={"dark:bg-gray-900 divide-y divide-solid divide-gray-200 dark:divide-gray-600"}>
-
             <Navbar
                 fluid={true}
             >
@@ -48,8 +49,8 @@ export default function App({ Component, pageProps }: AppProps) {
                     <Navbar.Link href="/navbars">
                         About
                     </Navbar.Link>
-                    <Navbar.Link href="/navbars">
-                        Services
+                    <Navbar.Link>
+                        <Link href="/search-info">Search</Link>
                     </Navbar.Link>
                     <Navbar.Link href="/navbars">
                         Pricing

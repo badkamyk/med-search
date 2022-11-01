@@ -3,7 +3,6 @@ import styles from '../styles/Home.module.css'
 import Hero from "../components/Hero";
 import { Carousel } from "flowbite-react";
 import Image from "next/image";
-import MainForm from "../components/MainForm";
 import Card from "../components/Card";
 import CTA from "../components/CTA";
 import Script from "next/script";
