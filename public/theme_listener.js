@@ -4,16 +4,13 @@ var themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
 // Change the icons inside the button based on previous settings
 if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
     themeToggleLightIcon.classList.remove('hidden');
-    console.log('themeToggleBtn clicked 1 ');
 } else {
     themeToggleDarkIcon.classList.remove('hidden');
-    console.log('themeToggleBtn clicked 2 ');
 }
 
 var themeToggleBtn = document.getElementById('theme-toggle');
 
 themeToggleBtn.addEventListener('click', function() {
-    console.log('themeToggleBtn clicked 3');
     // toggle icons inside button
     themeToggleDarkIcon.classList.toggle('hidden');
     themeToggleLightIcon.classList.toggle('hidden');
