@@ -49,8 +49,9 @@ export default function App({ Component, pageProps }: AppProps) {
                     <Navbar.Link href="/navbars">
                         About
                     </Navbar.Link>
-                    <Navbar.Link>
-                        <Link href="/search-info">Search</Link>
+                    <Navbar.Link href="/search-info">
+                        Search
+                        {/*<Link href="/search-info">Search</Link>*/}
                     </Navbar.Link>
                     <Navbar.Link href="/navbars">
                         Pricing
