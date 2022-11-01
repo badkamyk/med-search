@@ -10,6 +10,11 @@ export default function App({ Component, pageProps }: AppProps) {
     return (
 
         <div className={"dark:bg-gray-900 divide-y divide-solid divide-gray-200 dark:divide-gray-600"}>
+            <Script id="show-banner" src="/theme_button.js" />
+            <Script
+                src="/theme_listener.js"
+                id="theme_listener"
+            />
             <Navbar
                 fluid={true}
             >
@@ -41,7 +46,7 @@ export default function App({ Component, pageProps }: AppProps) {
                         </svg>
                     </button>
                     <Navbar.Link
-                        href="/navbars"
+                        href="/"
                         active={true}
                     >
                         Home

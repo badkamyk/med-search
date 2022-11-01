@@ -13,13 +13,7 @@ export default function Home() {
             <Head>
                 <title>Pubmed info</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-
             </Head>
-            <Script id="show-banner" src="/theme_button.js" />
-            <Script
-                src="/theme_listener.js"
-                id="theme_listener"
-            />
             <Hero />
             <CTA />
             <div
