@@ -67,8 +67,10 @@ export default function Accordion() {
                                 I want to build more than one project. Is that allowed?
                             </h3>
                             <p className="text-gray-500 dark:text-gray-400">You can use Windster for an unlimited amount
-                                of projects, whether it&apos;s a personal website, a SaaS app, or a website for a client. As
-                                long as you don&apos;t build a product that will directly compete with Windster either as a
+                                of projects, whether it&apos;s a personal website, a SaaS app, or a website for a
+                                client. As
+                                long as you don&apos;t build a product that will directly compete with Windster either
+                                as a
                                 UI kit, theme, or template, it&apos;s fine.</p>
                             <p className="text-gray-500 dark:text-gray-400">Find out more information by <Link
                                 href="/"
