@@ -18,7 +18,7 @@ export default function App({ Component, pageProps }: AppProps) {
             <Navbar
                 fluid={true}
             >
-                <Navbar.Brand href="https://flowbite.com/">
+                <Navbar.Brand href="/">
                     <Image
                         src="https://flowbite.com/docs/images/logo.svg"
                         width={100}
@@ -57,10 +57,10 @@ export default function App({ Component, pageProps }: AppProps) {
                     <Navbar.Link href="/search-info">
                         Search
                     </Navbar.Link>
-                    <Navbar.Link href="/navbars">
+                    <Navbar.Link href="/pricing">
                         Pricing
                     </Navbar.Link>
-                    <Navbar.Link href="/navbars">
+                    <Navbar.Link href="/contact">
                         Contact
                     </Navbar.Link>
                 </Navbar.Collapse>
