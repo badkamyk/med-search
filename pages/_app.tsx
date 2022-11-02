@@ -9,7 +9,7 @@ import Link from "next/link";
 export default function App({ Component, pageProps }: AppProps) {
     return (
 
-        <div className={"dark:bg-gray-900 divide-y divide-solid divide-gray-200 dark:divide-gray-600"}>
+        <div className={"dark:bg-gray-900 divide-y divide-solid divide-gray-200 dark:divide-gray-600 min-h-screen"}>
             <Script id="show-banner" src="/theme_button.js" />
             <Script
                 src="/theme_listener.js"
@@ -51,7 +51,7 @@ export default function App({ Component, pageProps }: AppProps) {
                     >
                         Home
                     </Navbar.Link>
-                    <Navbar.Link href="/navbars">
+                    <Navbar.Link href="/about">
                         About
                     </Navbar.Link>
                     <Navbar.Link href="/search-info">
@@ -66,7 +66,7 @@ export default function App({ Component, pageProps }: AppProps) {
                 </Navbar.Collapse>
             </Navbar>
             <Component {...pageProps} />
-            <Footer container={true} className={"sm: text-center"}>
+            <Footer container={true} className={"sm: text-center rounded-none"}>
                 <Footer.Copyright
                     href="#"
                     by="MedInfo™"

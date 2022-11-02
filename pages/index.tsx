@@ -9,7 +9,7 @@ import Script from "next/script";
 
 export default function Home() {
     return (
-        <div className="h-screen">
+        <div className="min-h-screen">
             <Head>
                 <title>Pubmed info</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
