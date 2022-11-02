@@ -1,7 +1,7 @@
 export default function Hero() {
     return (
         <section className="bg-white dark:bg-gray-900 divide-y divide-solid divide-gray-200 dark:divide-gray-600">
-            <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12 mb-12">
+            <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12 mb-121">
                 <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">We
                     invest in the science’s potential</h1>
                 <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Here
