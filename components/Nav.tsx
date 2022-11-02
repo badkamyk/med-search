@@ -1,6 +1,5 @@
 import {Navbar} from "flowbite-react";
 import Image from "next/image";
-import {useState} from "react";
 import {useRouter} from "next/router";
 
 export default function Nav() {

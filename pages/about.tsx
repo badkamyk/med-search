@@ -1,4 +1,3 @@
-import Hero from "../components/Hero";
 import Head from "next/head";
 import Accordion from "../components/Accordion";
 
@@ -16,17 +15,16 @@ export default function About() {
                         This is a project made by <a href="#"
                                                      className="text-blue-500 hover:text-blue-600">Kamyk</a>. It&apos;s
                         meant
-                        to be a simple way to search for information on pubmed without scrolling through hundreds of
-                        pages.
-                        If you really wanna dig deep into the research - do that on your own. Use this website to get
-                        the information prepared in a &quot;compact&quot; way.
+                        to be a simple way to search for information on ClinicalTrials without scrolling through
+                        hundreds of
+                        pages. You can easily check methodologies used in a study, the number of participants, and
+                        more.
+                        If you really wanna dig deep into the research - click on the link and you&lsquo;ll be redirected to PubMed full description.
+                        Use this website to get the information prepared in a &quot;compact&quot; way.
                     </p>
                     <p className="mt-9 text-2xl lg:w-1/2"><a className="text-blue-500 hover:text-blue-600"
-                                                             href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a> is a
-                        free search engine accessing primarily the MEDLINE database of references and abstracts on life
-                        sciences and biomedical topics. The United States National Library of Medicine (NLM) at the
-                        National Institutes of Health maintain the database as part of the Entrez system of information
-                        retrieval.</p>
+                                                             href="https://clinicaltrials.gov/">ClinicalTrials</a> is a
+                        database of privately and publicly funded clinical studies conducted around the world.</p>
                 </div>
                 <Accordion/>
             </div>
