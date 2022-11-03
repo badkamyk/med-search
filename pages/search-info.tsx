@@ -22,7 +22,7 @@ export default function SearchPage() {
 
     const toggleLocalStorage = (id: string, data: MedDatatype) => {
         const localData = localStorage.getItem("savedData");
-        console.log(localData);
+        console.log(savedSearchTerm);
         if (localData) {
             const parsedData = JSON.parse(localData);
             if (parsedData[id]) {
@@ -30,7 +30,9 @@ export default function SearchPage() {
                 filterSearchTerm(id);
             } else {
                 parsedData[id] = data;
-                addToSavedSearchTerm(id);
+                if (!savedSearchTerm.includes(id)) {
+                    addToSavedSearchTerm(id);
+                }
             }
             localStorage.setItem("savedData", JSON.stringify(parsedData));
         } else {

@@ -18,6 +18,22 @@ export default function Saved() {
         }
     }
 
+    const removeFromSaved = (id: string) => {
+        const localData = localStorage.getItem("savedData");
+        if (localData) {
+            const parsedData = JSON.parse(localData);
+            delete parsedData[id];
+            localStorage.setItem("savedData", JSON.stringify(parsedData));
+            getSavedData();
+        }
+    }
+
+    const removeAllFromStorage = () => {
+        localStorage.removeItem("savedData");
+        setSavedData([]);
+        setTotalPages(1);
+    }
+
     useEffect(() => {
         getSavedData();
 
@@ -35,10 +51,14 @@ export default function Saved() {
                     <p className="text-md">Here you can find all the saved items</p>
                 </div>
             </div>
+            {savedData.length > 0 && <button onClick={removeAllFromStorage}
+                                             className="bg-red-500 mt-3 w-1/4 mx-auto hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
+                Remove All
+            </button>}
             <div
                 className="p-3 grid gap-4 w-full mb-6 justify-center items-center relative">
                 {savedData.slice((currentPage - 1) * 9, currentPage * 9).map((data) => (
-                    <Card key={data.NCTId[0]} maxW={"7xl"} cardData={data}/>
+                    <Card key={data.NCTId[0]} maxW={"7xl"} cardData={data} removeFromSaved={removeFromSaved}/>
                 ))}
             </div>
 
