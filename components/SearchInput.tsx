@@ -11,7 +11,6 @@ export default function SearchInput({onSubmit, getMedData} : {onSubmit: (data: A
         e.preventDefault();
         getMedData(searchTerm).then((data) => onSubmit(data));
     }
-
     return (
         <form onSubmit={handleSubmit} className="mt-12 px-6 text-md">
             <label htmlFor="default-search"

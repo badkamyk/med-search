@@ -65,6 +65,12 @@ export default function Nav() {
                 >
                     Contact
                 </Navbar.Link>
+                <Navbar.Link
+                    href="/saved"
+                    active={router.pathname === "/saved"}
+                >
+                    Saved
+                </Navbar.Link>
             </Navbar.Collapse>
         </Navbar>
     )
