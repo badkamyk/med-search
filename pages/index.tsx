@@ -3,7 +3,6 @@ import styles from '../styles/Home.module.css'
 import Hero from "../components/Hero";
 import Card from "../components/Card";
 import CTA from "../components/CTA";
-import Nav from "../components/Nav";
 
 export default function Home() {
     return (

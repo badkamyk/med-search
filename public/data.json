@@ -1,0 +1,324 @@
+{
+  "StudyFieldsResponse":{
+    "APIVrs":"1.01.05",
+    "DataVrs":"2022:11:01 23:38:13.403",
+    "Expression":"ashwagandha",
+    "NStudiesAvail":432490,
+    "NStudiesFound":34,
+    "MinRank":1,
+    "MaxRank":20,
+    "NStudiesReturned":20,
+    "FieldList":[
+      "NCTId",
+      "BriefTitle",
+      "Condition",
+      "PrimaryOutcomeMeasure"
+    ],
+    "StudyFields":[
+      {
+        "Rank":1,
+        "NCTId":[
+          "NCT05430685"
+        ],
+        "BriefTitle":[
+          "The Impact of Ashwagandha on Perceived Stress, Sleep and Food Cravings in College Students"
+        ],
+        "Condition":[
+          "Stress",
+          "Sleep",
+          "Craving",
+          "Well Being"
+        ],
+        "PrimaryOutcomeMeasure":[
+          "Impact of ashwagandha on Sleep",
+          "Impact of ashwagandha on Perceived Stress",
+          "Impact of ashwagandha on Food Cravings"
+        ]
+      },{
+        "Rank":2,
+        "NCTId":[
+          "NCT04092647"
+        ],
+        "BriefTitle":[
+          "Ashwagandha for Cognitive Dysfunction"
+        ],
+        "Condition":[
+          "Breast Cancer"
+        ],
+        "PrimaryOutcomeMeasure":[
+          "FACT-Cog PCI"
+        ]
+      },{
+        "Rank":3,
+        "NCTId":[
+          "NCT03533972"
+        ],
+        "BriefTitle":[
+          "Effect of Ashwagandha on Salivary Antioxidant and Serum c Reactive Protein in Chronic Generalized Periodontitis"
+        ],
+        "Condition":[
+          "Chronic Periodontitis"
+        ],
+        "PrimaryOutcomeMeasure":[
+          "change in c reactive protein",
+          "change in super oxide dismutase",
+          "change in probing depth",
+          "change in clinical attachment loss"
+        ]
+      },{
+        "Rank":4,
+        "NCTId":[
+          "NCT00817752"
+        ],
+        "BriefTitle":[
+          "Ashwagandha: Effects on Stress, Inflammation and Immune Cell Activation"
+        ],
+        "Condition":[
+          "Inflammation",
+          "Cancer",
+          "Autoimmune Diseases"
+        ],
+        "PrimaryOutcomeMeasure":[
+          "The primary endpoint of this study will be to measure immune cell activation, inflammatory cytokines and cortisol levels after administration of the herb."
+        ]
+      },{
+        "Rank":5,
+        "NCTId":[
+          "NCT03596307"
+        ],
+        "BriefTitle":[
+          "The Effects of Ashwagandha in Endurance Exercise Performance"
+        ],
+        "Condition":[
+          "Healthy"
+        ],
+        "PrimaryOutcomeMeasure":[
+          "Performance (mean power output (Watt))"
+        ]
+      },{
+        "Rank":6,
+        "NCTId":[
+          "NCT00689195"
+        ],
+        "BriefTitle":[
+          "Pilot Study of Curcumin Formulation and Ashwagandha Extract in Advanced Osteosarcoma"
+        ],
+        "Condition":[
+          "Osteosarcoma"
+        ],
+        "PrimaryOutcomeMeasure":[
+          "response, toxicity, disease progression"
+        ]
+      },{
+        "Rank":7,
+        "NCTId":[
+          "NCT03437668"
+        ],
+        "BriefTitle":[
+          "Adjunctive Withania Somnifera (Ashwagandha) for Persistent Symptoms in People With Schizophrenia"
+        ],
+        "Condition":[
+          "Schizophrenia"
+        ],
+        "PrimaryOutcomeMeasure":[
+          "Positive and Negative Symptom Scale"
+        ]
+      },{
+        "Rank":8,
+        "NCTId":[
+          "NCT01793935"
+        ],
+        "BriefTitle":[
+          "Withania Somnifera: an Immunomodulator and Anti-inflammatory Agent for Schizophrenia"
+        ],
+        "Condition":[
+          "Schizophrenia",
+          "Schizoaffective Disorder"
+        ],
+        "PrimaryOutcomeMeasure":[
+          "Positive and Negative Syndrome Scale (PANSS)"
+        ]
+      },{
+        "Rank":9,
+        "NCTId":[
+          "NCT04598243"
+        ],
+        "BriefTitle":[
+          "Treatment of Fibromyalgia and CFS With Ribose, Ashwagandha, Rhodiola, Licorice, Schisandra and Green Tea Extract"
+        ],
+        "Condition":[
+          "Fibromyalgia",
+          "CFS"
+        ],
+        "PrimaryOutcomeMeasure":[
+          "VAS"
+        ]
+      },{
+        "Rank":10,
+        "NCTId":[
+          "NCT00761761"
+        ],
+        "BriefTitle":[
+          "Sensoril(Ashwaganhda)for Bipolar Disorder"
+        ],
+        "Condition":[
+          "Bipolar I Disorder",
+          "Bipolar II Disorder",
+          "Bipolar Disorder NOS"
+        ],
+        "PrimaryOutcomeMeasure":[
+          "Change From Baseline in Digit-Span Score at 8 Weeks"
+        ]
+      },{
+        "Rank":11,
+        "NCTId":[
+          "NCT05210218"
+        ],
+        "BriefTitle":[
+          "Cinnamon and Withania on Weight Loss"
+        ],
+        "Condition":[
+          "Obesity"
+        ],
+        "PrimaryOutcomeMeasure":[
+          "weight change"
+        ]
+      },{
+        "Rank":12,
+        "NCTId":[
+          "NCT05602389"
+        ],
+        "BriefTitle":[
+          "Study to Assess the Effect of Multi-herb Formulae and an Ashwagandha Root Formula on the Modulation of the Stress and Related Symptoms"
+        ],
+        "Condition":[
+          "Stress"
+        ],
+        "PrimaryOutcomeMeasure":[
+          "Perceived stress scale",
+          "Perceived stress scale",
+          "Perceived stress scale"
+        ]
+      },{
+        "Rank":13,
+        "NCTId":[
+          "NCT05031351"
+        ],
+        "BriefTitle":[
+          "NF-κB Inhibition in Amyotrophic Lateral Sclerosis"
+        ],
+        "Condition":[
+          "ALS"
+        ],
+        "PrimaryOutcomeMeasure":[
+          "Incidence of adverse events (safety)"
+        ]
+      },{
+        "Rank":14,
+        "NCTId":[
+          "NCT01311180"
+        ],
+        "BriefTitle":[
+          "A Clinical Trial to Study the Effects of Sensoril® for Patients With Generalized Anxiety Disorder"
+        ],
+        "Condition":[
+          "Generalized Anxiety Disorder"
+        ],
+        "PrimaryOutcomeMeasure":[
+          "Change in the Hamilton Anxiety Rating Scale (HAM-A) total score"
+        ]
+      },{
+        "Rank":15,
+        "NCTId":[
+          "NCT03780621"
+        ],
+        "BriefTitle":[
+          "Effects of an Adaptogenic Extract on Electrical Activity of the Brain in Elderly Subjects With Cognitive Impairment"
+        ],
+        "Condition":[
+          "Cognitive Impairment, Mild"
+        ],
+        "PrimaryOutcomeMeasure":[
+          "Change over time in neural electrical activity of the brain as measured by quantitative-topographic EEG for herbal treatment group versus placebo"
+        ]
+      },{
+        "Rank":16,
+        "NCTId":[
+          "NCT03112824"
+        ],
+        "BriefTitle":[
+          "Functional Assessment of Ashwagandaha Root Extract During Weight Loss"
+        ],
+        "Condition":[
+          "Stress Reaction",
+          "Sleep Disturbance",
+          "Craving",
+          "Obesity"
+        ],
+        "PrimaryOutcomeMeasure":[
+          "Perceived Stress Scale PSS"
+        ]
+      },{
+        "Rank":17,
+        "NCTId":[
+          "NCT04733924"
+        ],
+        "BriefTitle":[
+          "Efficacy and Tolerability of Sensoril® in Improving Immunity and Thereby Reducing Incidence of Upper Respiratory Tract Infections"
+        ],
+        "Condition":[
+          "Immune Health"
+        ],
+        "PrimaryOutcomeMeasure":[
+          "Wisconsin Upper Respiratory Symptom Survey-21"
+        ]
+      },{
+        "Rank":18,
+        "NCTId":[
+          "NCT04716647"
+        ],
+        "BriefTitle":[
+          "Feasibility of Ayurveda in Patients With Mild-to-Moderate COVID-19: A Community-Based Participatory Research"
+        ],
+        "Condition":[
+          "Covid19"
+        ],
+        "PrimaryOutcomeMeasure":[
+          "Time to clinical recovery",
+          "Proportion of patient with negative conversion in nasopharyngeal swab"
+        ]
+      },{
+        "Rank":19,
+        "NCTId":[
+          "NCT02027467"
+        ],
+        "BriefTitle":[
+          "Study to Assess the Effect of StemAlive® Supplement on the Levels of Stem Cells in Human Volunteers"
+        ],
+        "Condition":[
+          "Healthy"
+        ],
+        "PrimaryOutcomeMeasure":[
+          "CD34+",
+          "CD45+",
+          "CD133+"
+        ]
+      },{
+        "Rank":20,
+        "NCTId":[
+          "NCT02172625"
+        ],
+        "BriefTitle":[
+          "The Effect of Protandim Supplementation on Oxidative Damage and Athletic Performance"
+        ],
+        "Condition":[
+          "Oxidative Stress"
+        ],
+        "PrimaryOutcomeMeasure":[
+          "5-km Running Time",
+          "Lipid Peroxides (TBARS)"
+        ]
+      }
+    ]
+  }
+}
