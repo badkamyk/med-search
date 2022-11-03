@@ -27,7 +27,6 @@ export default function Card({maxW, cardData, link, checkIfSaved, toggleLocalSto
                         className="inline-block px-2 py-1 mt-1 mr-2 text-sm font-medium leading-5 text-blue-800 bg-blue-100 rounded-full dark:bg-green-500 dark:text-white">{cardData.PrimaryCompletionDate.length > 0 ? `Completion date: ${cardData.PrimaryCompletionDate}` : null}</span>
                 </p> : null}
                 <p className="font-normal text-gray-700 dark:text-gray-300 mt-2">{cardData ? `Outcome measure: ${cardData.PrimaryOutcomeMeasure.map(el => el.toLowerCase())}` : "Here are the biggest enterprise technology stories of the day. Here are the biggest enterprise technology stories of the day. Here are the biggest enterprise technology stories of the day."}</p>
-                {/*boomark button*/}
 
             </Link>
             {cardData && toggleLocalStorage ? <button

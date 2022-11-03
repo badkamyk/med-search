@@ -1,7 +1,7 @@
 import {useState} from "react";
 import {MedDatatype} from "./types/DataType";
 
-export default function SearchInput({onSubmit, getMedData} : {onSubmit: (data: Array<MedDatatype>) => void , getMedData: (name: string) => Promise<any>}) {
+export default function SearchInput({onSubmit, getMedData} : {onSubmit: (data: Array<MedDatatype>) => void , getMedData: (searchTerm: string) => Promise<Array<MedDatatype>>}) {
     const [searchTerm, setSearchTerm] = useState("");
     const onChangeInput = (e: React.ChangeEvent<HTMLInputElement>) => {
         setSearchTerm(e.target.value);
