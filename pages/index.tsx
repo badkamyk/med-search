@@ -15,9 +15,9 @@ export default function Home() {
             <CTA/>
             <div
                 className="flex flex-col gap-4 align items-center w-full justify-center mb-12 sm:flex-row md:flex-row lg:flex-row xl:flex-row">
-                <Card maxW={"sm"}/>
-                <Card maxW={"sm"}/>
-                <Card maxW={"sm"}/>
+                <Card maxW={"sm"} link={"/"}/>
+                <Card maxW={"sm"} link={"/"}/>
+                <Card maxW={"sm"} link={"/"}/>
             </div>
         </div>
     )

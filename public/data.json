@@ -12,7 +12,9 @@
       "NCTId",
       "BriefTitle",
       "Condition",
-      "PrimaryOutcomeMeasure"
+      "PrimaryOutcomeMeasure",
+      "LeadSponsorName",
+      "PrimaryCompletionDate"
     ],
     "StudyFields":[
       {
@@ -33,6 +35,12 @@
           "Impact of ashwagandha on Sleep",
           "Impact of ashwagandha on Perceived Stress",
           "Impact of ashwagandha on Food Cravings"
+        ],
+        "LeadSponsorName":[
+          "University of Colorado, Colorado Springs"
+        ],
+        "PrimaryCompletionDate":[
+          "April 10, 2020"
         ]
       },{
         "Rank":2,
@@ -47,6 +55,12 @@
         ],
         "PrimaryOutcomeMeasure":[
           "FACT-Cog PCI"
+        ],
+        "LeadSponsorName":[
+          "Sutter Health"
+        ],
+        "PrimaryCompletionDate":[
+          "November 1, 2021"
         ]
       },{
         "Rank":3,
@@ -64,6 +78,12 @@
           "change in super oxide dismutase",
           "change in probing depth",
           "change in clinical attachment loss"
+        ],
+        "LeadSponsorName":[
+          "Tatyasaheb Kore Dental College"
+        ],
+        "PrimaryCompletionDate":[
+          "February 27, 2018"
         ]
       },{
         "Rank":4,
@@ -80,6 +100,12 @@
         ],
         "PrimaryOutcomeMeasure":[
           "The primary endpoint of this study will be to measure immune cell activation, inflammatory cytokines and cortisol levels after administration of the herb."
+        ],
+        "LeadSponsorName":[
+          "National University of Natural Medicine"
+        ],
+        "PrimaryCompletionDate":[
+          "January 2008"
         ]
       },{
         "Rank":5,
@@ -94,6 +120,12 @@
         ],
         "PrimaryOutcomeMeasure":[
           "Performance (mean power output (Watt))"
+        ],
+        "LeadSponsorName":[
+          "Arjuna Natural Limited"
+        ],
+        "PrimaryCompletionDate":[
+          "December 2018"
         ]
       },{
         "Rank":6,
@@ -108,6 +140,12 @@
         ],
         "PrimaryOutcomeMeasure":[
           "response, toxicity, disease progression"
+        ],
+        "LeadSponsorName":[
+          "Tata Memorial Hospital"
+        ],
+        "PrimaryCompletionDate":[
+          "June 2013"
         ]
       },{
         "Rank":7,
@@ -122,6 +160,12 @@
         ],
         "PrimaryOutcomeMeasure":[
           "Positive and Negative Symptom Scale"
+        ],
+        "LeadSponsorName":[
+          "Chengappa, K.N. Roy, MD"
+        ],
+        "PrimaryCompletionDate":[
+          "December 31, 2022"
         ]
       },{
         "Rank":8,
@@ -137,6 +181,12 @@
         ],
         "PrimaryOutcomeMeasure":[
           "Positive and Negative Syndrome Scale (PANSS)"
+        ],
+        "LeadSponsorName":[
+          "K.N. Roy Chengappa"
+        ],
+        "PrimaryCompletionDate":[
+          "July 7, 2016"
         ]
       },{
         "Rank":9,
@@ -152,6 +202,12 @@
         ],
         "PrimaryOutcomeMeasure":[
           "VAS"
+        ],
+        "LeadSponsorName":[
+          "Practitioners Alliance Network"
+        ],
+        "PrimaryCompletionDate":[
+          "July 4, 2021"
         ]
       },{
         "Rank":10,
@@ -168,6 +224,12 @@
         ],
         "PrimaryOutcomeMeasure":[
           "Change From Baseline in Digit-Span Score at 8 Weeks"
+        ],
+        "LeadSponsorName":[
+          "University of Pittsburgh"
+        ],
+        "PrimaryCompletionDate":[
+          "March 2011"
         ]
       },{
         "Rank":11,
@@ -182,6 +244,12 @@
         ],
         "PrimaryOutcomeMeasure":[
           "weight change"
+        ],
+        "LeadSponsorName":[
+          "University of Roma La Sapienza"
+        ],
+        "PrimaryCompletionDate":[
+          "January 1, 2019"
         ]
       },{
         "Rank":12,
@@ -198,6 +266,12 @@
           "Perceived stress scale",
           "Perceived stress scale",
           "Perceived stress scale"
+        ],
+        "LeadSponsorName":[
+          "Vedic Lifesciences Pvt. Ltd."
+        ],
+        "PrimaryCompletionDate":[
+          "March 20, 2023"
         ]
       },{
         "Rank":13,
@@ -212,6 +286,12 @@
         ],
         "PrimaryOutcomeMeasure":[
           "Incidence of adverse events (safety)"
+        ],
+        "LeadSponsorName":[
+          "Sunnybrook Health Sciences Centre"
+        ],
+        "PrimaryCompletionDate":[
+          "July 2022"
         ]
       },{
         "Rank":14,
@@ -226,6 +306,12 @@
         ],
         "PrimaryOutcomeMeasure":[
           "Change in the Hamilton Anxiety Rating Scale (HAM-A) total score"
+        ],
+        "LeadSponsorName":[
+          "Natreon, Inc."
+        ],
+        "PrimaryCompletionDate":[
+          "November 2012"
         ]
       },{
         "Rank":15,
@@ -240,6 +326,12 @@
         ],
         "PrimaryOutcomeMeasure":[
           "Change over time in neural electrical activity of the brain as measured by quantitative-topographic EEG for herbal treatment group versus placebo"
+        ],
+        "LeadSponsorName":[
+          "EuroPharma, Inc."
+        ],
+        "PrimaryCompletionDate":[
+          "June 1, 2019"
         ]
       },{
         "Rank":16,
@@ -257,6 +349,12 @@
         ],
         "PrimaryOutcomeMeasure":[
           "Perceived Stress Scale PSS"
+        ],
+        "LeadSponsorName":[
+          "Loma Linda University"
+        ],
+        "PrimaryCompletionDate":[
+          "June 23, 2021"
         ]
       },{
         "Rank":17,
@@ -271,6 +369,12 @@
         ],
         "PrimaryOutcomeMeasure":[
           "Wisconsin Upper Respiratory Symptom Survey-21"
+        ],
+        "LeadSponsorName":[
+          "Vedic Lifesciences Pvt. Ltd."
+        ],
+        "PrimaryCompletionDate":[
+          "April 29, 2021"
         ]
       },{
         "Rank":18,
@@ -286,6 +390,12 @@
         "PrimaryOutcomeMeasure":[
           "Time to clinical recovery",
           "Proportion of patient with negative conversion in nasopharyngeal swab"
+        ],
+        "LeadSponsorName":[
+          "Aarogyam UK"
+        ],
+        "PrimaryCompletionDate":[
+          "December 12, 2020"
         ]
       },{
         "Rank":19,
@@ -302,6 +412,12 @@
           "CD34+",
           "CD45+",
           "CD133+"
+        ],
+        "LeadSponsorName":[
+          "Vedic Lifesciences Pvt. Ltd."
+        ],
+        "PrimaryCompletionDate":[
+          "April 2014"
         ]
       },{
         "Rank":20,
@@ -317,6 +433,12 @@
         "PrimaryOutcomeMeasure":[
           "5-km Running Time",
           "Lipid Peroxides (TBARS)"
+        ],
+        "LeadSponsorName":[
+          "University of Louisville"
+        ],
+        "PrimaryCompletionDate":[
+          "June 2015"
         ]
       }
     ]
